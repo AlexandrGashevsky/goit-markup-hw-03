@@ -39,6 +39,8 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .btn {
@@ -167,6 +169,7 @@ ul {
 }
 
 .hero-title {
+  letter-spacing: 0.06em;
   margin-left: auto;
   margin-right: auto;
   width: 696px;
@@ -210,13 +213,12 @@ ul {
   padding-right: auto;
 }
 
-.about-header {
-  margin-bottom: 10px;
+.about-item {
   width: 270px;
 }
 
-.about-paragraph {
-  width: 270px;
+.about-header {
+  margin-bottom: 10px;
 }
 
 .about-item:not(:last-child) {
@@ -288,8 +290,12 @@ ul {
   margin-right: 30px;
 }
 
+.team-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-header {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -299,7 +305,6 @@ ul {
 
 .team-paragraph {
   margin-top: 10px;
-  padding-bottom: 30px;
   color: var(--main-text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -415,16 +420,13 @@ ul {
 }
 
 .projects-bordered {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px 20px 24px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
 
 .projects-header {
-  margin-left: auto;
-  margin-right: auto;
   width: 322px;
   font-weight: bold;
   font-size: 18px;
@@ -434,8 +436,6 @@ ul {
 
 .projects-paragraph {
   margin-top: 4px;
-  margin-left: auto;
-  margin-right: auto;
   width: 322px;
   color: #212121;
   color: var(--main-text-color);
