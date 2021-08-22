@@ -164,8 +164,8 @@ ul {
 }
 
 .hero-btn-and-title {
-  padding-top: 106px;
-  padding-bottom: 106px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -346,27 +346,29 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.footer-mail {
-  margin-top: 9px;
+.footer-mail-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-tel {
-  margin-top: 9px;
+.footer-mail-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mail-paragraph {
+  margin-top: 9px;
+}
+
+.footer-tel-paragraph {
+  margin-top: 9px;
 }
 
 /*----------------------MAIN PORTFOLIO----------------------*/
-
-.portfolio-main {
-  /* background-color: #e5e5e5; */
-}
 
 /*----------------------FILTER----------------------*/
 
